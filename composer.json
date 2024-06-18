@@ -1,0 +1,27 @@
+{
+	"name": "greenpeace/planet4-child-theme-ukraine",
+	"description": "Planet 4 Child theme for Ukraine",
+	"type":"wordpress-theme",
+	"minimum-stability" : "stable",
+	"license": "GPL-3.0+",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/greenpeace/planet4-child-theme/issues",
+		"source": "https://github.com/greenpeace/planet4-child-theme"
+	},
+	"extra": {
+		"installer-paths": {
+			"../../plugins/{$name}/": [
+				"wpackagist-plugin/*",
+				"type:wordpress-plugin"
+			]
+		}
+	},
+	"require": {
+	}
+}
