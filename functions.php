@@ -15,6 +15,6 @@ function enqueue_child_styles() {
 add_filter(
   'planet4_csp_allowed_frame_ancestors',
   function($allowlist) {
-    return array_merge($allowlist, ['www-prod.greenpeace.org']);
+    return array_merge($allowlist, ['www.greenpeace.org']);
   }
 );
