@@ -11,10 +11,3 @@ function enqueue_child_styles() {
 
   wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', [], $css_creation );
 }
-
-add_filter(
-  'planet4_csp_allowed_frame_ancestors',
-  function($allowlist) {
-    return array_merge($allowlist, ['www.greenpeace.org']);
-  }
-);
